@@ -12,3 +12,11 @@ h1, h2, h3 {
 .description {
   width: 600px;
 }
+.left {
+  width: 600px;
+  float: left;
+}
+.right {
+  width: 600px;
+  float: left;
+}
