@@ -1,5 +1,7 @@
 body {
   background color: #EBDFB2;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin:20px;
 }
 
 h1, h2, h3 {
@@ -12,9 +14,10 @@ h1, h2, h3 {
 .description {
   width: 600px;
 }
-.left {
-  width: 600px;
-  float: left;
+.left-column,
+.right-column{
+  flex: 1;
+  max-width: 600px;
 }
 .right {
   width: 600px;
