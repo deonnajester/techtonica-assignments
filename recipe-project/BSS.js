@@ -34,4 +34,4 @@ myDiv.appendChild(label);
 //Step 4 takes the strikethrough a little further with the element.
 
 // Step 5 adds at least 1 media query. I have found a youtube link to add. 
-
+https://www.youtube.com/watch?v=25C0C3G4AUE
