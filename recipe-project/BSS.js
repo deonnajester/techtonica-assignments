@@ -10,3 +10,11 @@ checkbox.value = "value";
 checkbox.id = "id";
 
 let label = document.createElement("label");
+
+label.htmlFor = 'id';
+
+label.appendChild(
+  document.createTextNode("This create the label for checkbox.")
+  );
+
+
