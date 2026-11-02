@@ -31,3 +31,7 @@ myDiv.appendChild(label);
 // Step 3 requires the strikethough option when you click on the checkbox and using CSS
 
 
+//Step 4 takes the strikethrough a little further with the element.
+
+
+
