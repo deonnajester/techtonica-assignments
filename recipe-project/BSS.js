@@ -5,6 +5,10 @@ let newIngredient = document.createElement('li');
 newIngeedient.textContent ='1/2 teaspoon of cinnamon';
 document.querySelector('').appendChild(newIngredient);
 
+// Step 2 wants to add a check mark as an element to a list. The example provided below 
+// is what I used to get started. I will need to figure out the machanics of how I should
+// change and make adjustments. 
+
 let checkbox = document.createElement("input");
 
 checkbox.type = "checkbox";
