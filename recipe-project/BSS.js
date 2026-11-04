@@ -1,5 +1,6 @@
 // Step 1 This is my attempt to add content. There are still things that I need to work 
 // through and trying to understand how the DOM will work.
+// Always make sure you all your documents are in the same folder to prevent any errors 
 
 let newIngredient = document.createElement('li');
 newIngeedient.textContent ='1/2 teaspoon of cinnamon';
