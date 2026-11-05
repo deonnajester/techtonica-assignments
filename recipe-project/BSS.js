@@ -30,10 +30,9 @@ item.appendChild(checkbox);
 item.appendChild(label);
 
 // Step 3 requires the strikethough option when you click on the checkbox and using CSS
-//
-
+// .checked {text-decoration: line-through; color: #48A363;}
 
 //Step 4 takes the strikethrough a little further with the element.
 
-// Step 5 adds at least 1 media query. I have found a youtube link to add. 
+// Step 5 adds at least 1 media query. I have found a youtube link to add. I think I have to use @media in CSS for this too. 
 // https://www.youtube.com/watch?v=25C0C3G4AUE
