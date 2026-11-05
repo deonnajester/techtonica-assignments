@@ -25,13 +25,12 @@ let itemText = item.textContent;
   item.textContent = "";
 
 label.textContent = itemText; // i do not want to have double text
- 
 
-myDiv.appendChild(checkbox);
-myDiv.appendChild(label);
-
+item.appendChild(checkbox);
+item.appendChild(label);
 
 // Step 3 requires the strikethough option when you click on the checkbox and using CSS
+//
 
 
 //Step 4 takes the strikethrough a little further with the element.
