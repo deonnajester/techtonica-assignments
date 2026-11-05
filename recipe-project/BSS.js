@@ -13,7 +13,7 @@ document.querySelector("#the-goodies").appendChild(newIngredient);
 // Practice Forms and Media Queries. 
 // when to use var and when to use let confuse me so I am choosing to use let with the JS. 
 
-let goodies = document.querySelectorAll("#the-goodies li");
+let goodies = document.querySelectorAll("#the-goodies li"); // I want to make sure that I select all the items in my list. It took me a secound to figure out thatt I was not seecting all items in my list. 
   let checkbox = document.createElement("input");
     checkbox.type = "checkbox";
 // I wanted to take this one step at a time to hopefully understand what I am showcasing. 
@@ -24,7 +24,7 @@ let label = document.createElement("label");
 let itemText = item.textContent;
   item.textContent = "";
 
-label.textContent = itemText;
+label.textContent = itemText; // i do not want to have double text
  
 
 myDiv.appendChild(checkbox);
