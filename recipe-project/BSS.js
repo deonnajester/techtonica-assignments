@@ -21,11 +21,11 @@ let goodies = document.querySelectorAll("#the-goodies li");
 
 let label = document.createElement("label");
 
-label.htmlFor = 'id';
+let itemText = item.textContent;
+  item.textContent = "";
 
-label.appendChild(
-  document.createTextNode("This create the label for checkbox.")
-  );
+label.textContent = itemText;
+ 
 
 myDiv.appendChild(checkbox);
 myDiv.appendChild(label);
