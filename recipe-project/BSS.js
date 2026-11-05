@@ -12,10 +12,10 @@ document.querySelector("#the-goodies").appendChild(newIngredient);
 // After yesterdays conversation with Naomi, She explained that this is a part of the exercise that we  wroked through with PP
 // Practice Forms and Media Queries. 
 // when to use var and when to use let confuse me so I am choosing to use let with the JS. 
+let goodies = document.querySelectorAll("#the-goodies li"); // I want to make sure that I select all the items in my list. It took me a secound to figure out thatt I was not seecting all items in my list. 
 
 goodiesList.forEach(function(item) { // i cannot believe I forgot this portion when I was reviewing in my vs code. 
-let goodies = document.querySelectorAll("#the-goodies li"); // I want to make sure that I select all the items in my list. It took me a secound to figure out thatt I was not seecting all items in my list. 
-  let checkbox = document.createElement("input");
+let checkbox = document.createElement("input");
     checkbox.type = "checkbox";
 // I wanted to take this one step at a time to hopefully understand what I am showcasing. 
 // I am pulling the JS elements from the picture shown the instructions on checklist step 2.
