@@ -28,6 +28,7 @@ label.textContent = itemText; // i do not want to have double text
 
 item.appendChild(checkbox);
 item.appendChild(label);
+});
 
 // Step 3 requires the strikethough option when you click on the checkbox and using CSS
 // .checked {text-decoration: line-through; color: #48A363;}
