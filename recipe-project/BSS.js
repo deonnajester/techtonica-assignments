@@ -11,6 +11,7 @@ document.querySelector("#the-goodies").appendChild(newIngredient);
 // change and make adjustments. 
 // After yesterdays conversation with Naomi, She explained that this is a part of the exercise that we  wroked through with PP
 // Practice Forms and Media Queries. 
+// when to use var and when to use let confuse me so I am choosing to use let with the JS. 
 
 let checkbox = document.createElement("input");
 
