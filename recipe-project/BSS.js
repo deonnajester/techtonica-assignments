@@ -13,7 +13,7 @@ document.querySelector("#the-goodies").appendChild(newIngredient);
 // Practice Forms and Media Queries. 
 // when to use var and when to use let confuse me so I am choosing to use let with the JS. 
 
-let checkbox = document.createElement("input");
+let goodies = document.querySelectorAll("#the-goodies li");
 
 checkbox.type = "checkbox";
 checkbox.name = "name";
