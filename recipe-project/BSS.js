@@ -22,6 +22,10 @@ let checkbox = document.createElement("input");
 // in this section I believe after researching through Udemy learning this is where the strikethrough should go for step 3
     checkbox.addEventListener("change", function() {(
         if (checkbox.checked) {
+            item.classList.add("checked");
+    } else {
+            item.classList.remove("checked");
+    }
        
 let label = document.createElement("label");
 
