@@ -17,6 +17,7 @@ let goodies = document.querySelectorAll("#the-goodies li");
   let checkbox = document.createElement("input");
     checkbox.type = "checkbox";
 // I wanted to take this one step at a time to hopefully understand what I am showcasing. 
+// I am pulling the JS elements from the picture shown the instructions on checklist step 2.
 
 let label = document.createElement("label");
 
