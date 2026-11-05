@@ -26,6 +26,7 @@ let checkbox = document.createElement("input");
     } else {
             item.classList.remove("checked");
     }
+    });
        
 let label = document.createElement("label");
 
