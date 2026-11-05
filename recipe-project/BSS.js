@@ -18,11 +18,6 @@ let goodies = document.querySelectorAll("#the-goodies li");
     checkbox.type = "checkbox";
 // I wanted to take this one step at a time to hopefully understand what I am showcasing. 
 
-checkbox.type = "checkbox";
-checkbox.name = "name";
-checkbox.value = "value";
-checkbox.id = "id";
-
 let label = document.createElement("label");
 
 label.htmlFor = 'id';
