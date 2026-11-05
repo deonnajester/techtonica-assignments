@@ -14,6 +14,8 @@ document.querySelector("#the-goodies").appendChild(newIngredient);
 // when to use var and when to use let confuse me so I am choosing to use let with the JS. 
 
 let goodies = document.querySelectorAll("#the-goodies li");
+  let checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
 
 checkbox.type = "checkbox";
 checkbox.name = "name";
