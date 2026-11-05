@@ -19,7 +19,7 @@ let checkbox = document.createElement("input");
     checkbox.type = "checkbox";
 // I wanted to take this one step at a time to hopefully understand what I am showcasing. 
 // I am pulling the JS elements from the picture shown the instructions on checklist step 2.
-
+// in this section I believe after researching through Udemy learning this is where the strikethrough should go for step 3
 let label = document.createElement("label");
 
 let itemText = item.textContent;
