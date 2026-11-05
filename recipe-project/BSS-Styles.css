@@ -35,4 +35,5 @@ h1, h2, h3 {
 
 .checked {
   text-decoration: line-through;
+  color: #48A363;
 }
