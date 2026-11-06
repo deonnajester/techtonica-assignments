@@ -3,7 +3,7 @@
 // Always make sure you all your documents are in the same folder to prevent any errors 
 
 let newIngredient = document.createElement('li');
-newIngeedient.textContent ='1/2 teaspoon of cinnamon';
+newIngredient.textContent ='1/2 teaspoon of cinnamon';
 document.querySelector("#the-goodies").appendChild(newIngredient);
 
 // Step 2 wants to add a check mark as an element to a list. The example provided below 
